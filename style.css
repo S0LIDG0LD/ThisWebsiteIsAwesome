@@ -99,7 +99,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 40px 100px;
+    padding: 80px 100px;
     align-items: flex-end;
 }
 
@@ -129,5 +129,6 @@ button {
 
 .content-quote-reference {
     font-weight: 600;
+    padding-right: 48px;
     
 }
