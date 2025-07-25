@@ -1,0 +1,133 @@
+body {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header, .title, .footer,  .content {
+    padding: 0px 16px;
+    display: flex;
+    flex-grow: 0 0 0;
+}
+
+.header, .title, .footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
+.title {
+    height: 300px;
+    align-items: center;
+    gap: 32px;
+    align-items: stretch;
+    padding: 96px 128px;
+    max-height: 250px;
+}
+
+.title-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+}
+
+.title-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.title-image {
+    display: flex;
+    background-color: gray;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link-text, title-details {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.content {
+    flex-direction: column;
+}
+
+button, .content-banner-text {
+    background-color: #3882F6;
+    color: white;
+}
+
+button {
+    padding: 8px 16px;
+}
+
+.content-info-title {
+    font-size:36px;
+    color: #1F2937;
+    font-weight: 900
+}
+
+.content-quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 40px 100px;
+    align-items: flex-end;
+}
+
+.content-banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    margin: 50px;
+}
+
+#white-border-botton{
+    border-radius: 12px;
+    border-color: white;
+    border-style: solid;
+}
+
+.content-quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 16px;
+}
+
+.content-quote-reference {
+    font-weight: 600;
+    
+}
